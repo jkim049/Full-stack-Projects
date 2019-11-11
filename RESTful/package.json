@@ -1,0 +1,22 @@
+{
+  "name": "restful",
+  "version": "1.0.0",
+  "description": "",
+  "mode": "module",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon -r esm app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
